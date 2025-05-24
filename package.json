@@ -1,0 +1,11 @@
+{
+  "name": "matinhas-informatics",
+  "version": "1.0.0",
+  "description": "informacoes da loja",
+  "main": "dinamicos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matinhas",
+  "license": "ISC"
+}
