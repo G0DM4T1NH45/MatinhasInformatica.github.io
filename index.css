@@ -1,8 +1,8 @@
 html{
     background-color: rgb(255, 255, 255);
     -webkit-font-smoothing: antialiased;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 header{
 
@@ -14,10 +14,9 @@ header{
 .dropbtn {
   color: white;
   background-color:rgb(194, 69, 69);
-  position: relative;
-  z-index: 2;
   font-size: 25px;
-  border: none;
+  position: relative;
+  border:solid 2px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -25,8 +24,8 @@ header{
   font-family: poppins-regular;
   position: absolute;
   display: inline-block;
-  top: 15px;
-  right: 75px;
+  top: 2%;
+  right: 8%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -95,7 +94,7 @@ li{
 }
 .texto_main{
     color:black;
-    margin: 20px;
+    
     font-family:poppins-regular;
     font-size: 14pt;
     padding: 5px 10px;
