@@ -16,3 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  document.addEventListener('DOMContentLoaded',function(){
+  // Verifica se o alerta já foi mostrado
+  if (!localStorage.getItem("alertMostrado")) {
+    window.alert("Site desenhado para ecras de computador");
+    localStorage.setItem("alertMostrado", "true"); // Marca como mostrado
+  }
+  })
+
